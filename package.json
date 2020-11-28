@@ -1,16 +1,21 @@
 {
   "name": "vietorm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Chechuck",
   "description": "VietORM is a Node.js ORM which aims to provide the user with all the features of SQLite in a simple way",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm dist/* && tsc",
+    "start": "ts-node src/index.ts"
   },
   "keywords": [
     "sqlite",
     "node",
     "orm"
-  ]
+  ],
+  "devDependencies": {
+    "ts-node": "~9.0.0",
+    "typescript": "~4.1.0"
+  }
 }

@@ -15,11 +15,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Web IDE.
 - Much more...
 
+## [0.0.1] - 2020-11-28
+
+### Added
+
+- Basic Typescript setup.
+
 ## [0.0.0] - 2020-11-28
 
 ### Added
 
 - Basic scaffolding.
 
-[unreleased]: https://github.com/Chechuck/vietorm/compare/v0.0.0...HEAD
+[unreleased]: https://github.com/Chechuck/vietorm/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/Chechuck/vietorm/releases/tag/v0.0.1
 [0.0.0]: https://github.com/Chechuck/vietorm/releases/tag/v0.0.0
