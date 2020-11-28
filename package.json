@@ -1,0 +1,16 @@
+{
+  "name": "vietorm",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Chechuck",
+  "description": "VietORM is a Node.js ORM which aims to provide the user with all the features of SQLite in a simple way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sqlite",
+    "node",
+    "orm"
+  ]
+}
