@@ -1,21 +1,33 @@
 {
   "name": "vietorm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Chechuck",
   "description": "VietORM is a Node.js ORM which aims to provide the user with all the features of SQLite in a simple way",
   "main": "index.js",
   "scripts": {
-    "build": "rm dist/* && tsc",
+    "build": "rm -f dist/* && webpack",
     "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-loader": "~8.0.11",
+    "ts-node": "~9.0.0",
+    "typescript": "~4.1.0",
+    "webpack": "~5.8.0",
+    "webpack-cli": "~4.2.0",
+    "copy-webpack-plugin": "~6.3.0"
   },
   "keywords": [
     "sqlite",
     "node",
     "orm"
   ],
-  "devDependencies": {
-    "ts-node": "~9.0.0",
-    "typescript": "~4.1.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chechuck/vietorm"
+  },
+  "bugs": {
+    "url": "https://github.com/Chechuck/vietorm/issues"
+  },
+  "homepage": "https://github.com/Chechuck/vietorm"
 }
