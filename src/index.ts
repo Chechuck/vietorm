@@ -1,2 +1,1 @@
-const who = 'Friend!';
-console.log(`Hello ${who}`);
+export { Connection } from './connection';

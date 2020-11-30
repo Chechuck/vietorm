@@ -10,11 +10,15 @@ module.exports = {
             exclude: /node_modules/
         }]
     },
+    externals: {
+        sqlite3: 'commonjs sqlite3'
+    },
     resolve: {
         extensions: ['.js', '.ts']
     },
     output: {
         filename: 'index.js',
+        libraryTarget: 'commonjs',
         path: path.resolve(__dirname, 'dist')
     },
     plugins: [
